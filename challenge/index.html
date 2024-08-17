@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codificador</title>
+    <link rel="stylesheet" href="./styles/style-reset.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <img class="header_logo" src="./assets/CSS-Logo.png" alt="mudar aqui a logo">
+        </div>
+    </header>
+
+    <main>
+        <div class="main">
+            <div class="esquerda">
+                <textarea id="inputTexto" class="input_texto" placeholder="Digite seu texto" name="" ></textarea>
+
+               
+                <div class="esquerda__footer">
+                    <img src="./assets/Vector.svg" alt="icone de esclamação">
+                    <span class="esquerda_info">Apenas letras minúsculas e sem acento.<span>
+                        <div class="esquerda_botoes">
+                            <button id="botaoEncript"  class="botao_encript">encriptar</button>
+                            <button id="botaoDescrip" class="botao_descrip">desencriptar</button>
+                        </div>
+                </div>
+                
+            </div>
+                
+            <div id="direita1" class="direita">
+                <img id="boneco" class="boneco" src="./assets/High quality products 1 1.svg" alt="pessoa">
+                    <textarea id="mensagemFinal" class="mensagem_final" placeholder="Nenhuma mensagem encontrada"></textarea>
+                    <p id="direitaInfo" class="direita_info">Digite um texto que você deseja criptografar ou descriptografar.</p>
+                <button id="botaoCopiar" class="botao_copiar oculto">copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
